@@ -22,7 +22,7 @@ body, html {
     padding-bottom: 40px;
 }
 
-.nav {
+.container.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,12 +34,14 @@ body, html {
 }
 
 .nav-links {
-    list-style: none;
     display: flex;
+    list-style: none;
     gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-links a {
+.nav-links li a {
     color: #e5e7eb;
     text-decoration: none;
     font-size: 14px;
