@@ -22,7 +22,7 @@ body, html {
     padding-bottom: 40px;
 }
 
-.container.nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
