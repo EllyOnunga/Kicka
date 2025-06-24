@@ -17,7 +17,7 @@ body, html {
 }
 
 .header {
-    background: #333;
+    background: #1f2937;
     color: white;
     padding-bottom: 40px;
 }
@@ -40,9 +40,9 @@ body, html {
 }
 
 .nav-links a {
-    color: white;
+    color: #e5e7eb;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .hero {
@@ -68,21 +68,17 @@ body, html {
     color: #e5e7eb;
 }
 
-.hero-text a {
-    display: inline-block;
-    padding: 10px 20px;
+.hero-text button {
     background: #3882f6;
     color: white;
-    text-decoration: none;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-.hero-image {
-    flex: 1;
+.hero-text button:hover {
+    background: #2563eb;
 }
-
-.hero-image img {
+.hero-image {
     flex: 1;
     background-color: #6b7280;
     color: #e5e7eb;
@@ -139,7 +135,7 @@ body, html {
     font-weight: bold;
 }
 
-.cta-div {
+.cta-section {
     background-color: white;
     padding: 50px 20px;
 } 
@@ -163,13 +159,11 @@ body, html {
     font-size: 14px;
 }
 
-.cta-box a {
-    display: inline-block;
-    padding: 10px 20px;
+.cta-box button {
     border: 2px solid white;
-    background: white;
-    color: #3882f6;
-    text-decoration: none;
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
 }
