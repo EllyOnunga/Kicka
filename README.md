@@ -1,3 +1,8 @@
+# Kicka landing page
+
+Welcome to **Kicka landing page** build using HTML and CSS
+
+You can open `index.html` to view the page
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
